@@ -8,8 +8,12 @@ The primary function of the assignment operator is to store a value in a variabl
 
 ### Example:
 ```java
-int x; // Declaring a variable named 'x' of type int
-x = 10; // Assigning the value 10 to the variable 'x'
+public class Test {
+    public static void main(String[] args) {
+        int x; // Declaring a variable named 'x' of type int
+        x = 10; // Assigning the value 10 to the variable 'x'
+    }
+}
 ```
 
 In this example, `x` is declared as an integer variable, and the value `10` is assigned to it using the assignment operator (`=`).
@@ -24,9 +28,14 @@ Java also provides compound assignment operators, which combine the assignment o
 
 ### Example of Compound Assignment Operator:
 ```java
-int y = 5;
-y += 3; // Equivalent to: y = y + 3;
-System.out.println(y); // Output: 8
+public class Test {
+    public static void main(String[] args) {
+        int y = 5;
+        y += 3; // Equivalent to: y = y + 3;
+        System.out.println(y);
+    }
+}
+// Output: 8
 ```
 
 In this example, the compound assignment operator `+=` adds `3` to the current value of `y` and assigns the result back to `y`.
